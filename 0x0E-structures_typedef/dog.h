@@ -3,9 +3,9 @@
 #define N (void *)0
 
 /**
- * dog_b - Typedef for dog struct
+ * dog_t - Typedef for dog struct
  */
-typedef struct dog dog_b;
+typedef struct dog dog_t;
 
 /**
  * struct dog - a simple dog structure
@@ -24,9 +24,9 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 
 void print_dog(struct dog *d);
 
-dog_b *new_dog(char *name, float age, char *owner);
+dog_t *new_dog(char *name, float age, char *owner);
 
-void free_dog(dog_b *d);
+void free_dog(dog_t *d);
 
 #endif
 
